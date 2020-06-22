@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paqueteseis;
+package paquetecinco;
+
+import paquetecuatro.*;
 
 public class EstudiantePresencial extends Estudiante{
     /*1.  Declarar
@@ -13,9 +15,7 @@ public class EstudiantePresencial extends Estudiante{
     int numeroCreditos;
     double costoCredito;
 
-    public EstudiantePresencial(String n, String a) {
-        super(n, a);
-    }
+
    
     //  Métodos establecer y calcular para los datos o atributos de la clase
     // 2.  Método establecerNumeroCreditos(numero: Real)

@@ -5,6 +5,9 @@
  */
 package paquetecuatro;
 
+import java.util.ArrayList;
+import javafx.collections.ArrayChangeListener;
+
 public abstract class Estudiante {
     /*
         1.  Declarar
@@ -22,7 +25,7 @@ public abstract class Estudiante {
     protected String identificacionEstudiante;
     protected int edadEstudiante;
     protected double matricula;
-    
+
     // Método establecerNombresEstudiante(nom: Cadena)
     public void establecerNombresEstudiante(String nom){
         nombresEstudiante = nom;
@@ -79,4 +82,5 @@ public abstract class Estudiante {
     public double obtenerMatricula(){
         return matricula;
     }
+ 
 }
